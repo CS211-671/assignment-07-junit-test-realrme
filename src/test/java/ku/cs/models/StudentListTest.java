@@ -38,7 +38,7 @@ class StudentListTest {
         StudentList s1 = new StudentList();
         s1.addNewStudent("6610450048", " Army");
         s1.giveScoreToId("6610450048", 81.0);
-        assertEquals("A", s1.findStudentById("6610450048").grade());
+        assertEquals("A", s1.viewGradeOfId("6610450048"));
     }
 
     @Test @DisplayName("ทดสอบ Getter")
